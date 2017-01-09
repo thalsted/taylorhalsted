@@ -1,8 +1,11 @@
 div#header {
   height: 100px;
   font-size: 50px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: rgba(57,43,88,0.2);
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 div#header h1 {
@@ -31,7 +34,7 @@ div#logo h1 {
 }
 
 .carrot {
-  animation: cycle 10s linear infinite;
+  animation: cycle 5s linear infinite;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -45,25 +48,33 @@ div#logo h1 {
   }
 }
 
-ul {
-  list-style-type: none;
+div.intro {
+  margin-top: 250px;
 }
 
-li {
-  display: inline-block;
-}
-
-a {
-  text-decoration: none;
+div.intro-text {
+  background-color: rgba(57,43,88,0.2);
   color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+}
+
+div.intro-text p{
+  padding: 10px;
+}
+
+div.intro-text p span{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 div.quote {
-  margin-top: 125px;
+  margin-top: 175px;
 }
 
 div.quote-text {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.6);
   color: rgba(121,134,203,1);
   text-align: center;
   font-size: 20px;
@@ -93,7 +104,7 @@ div.case-block {
   background-color: rgba(121,134,203,0.7);
   color: rgba(255,255,255,1);
   font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 div.case-block p {
@@ -138,4 +149,56 @@ div.case-block p {
   .fullscreen-bg__video {
     display: none;
   }
+}
+
+ul.menu {
+  display: inline-block;
+  margin: 0 0 0 -10px;
+  height: 55px;
+  width: 250px;
+}
+
+ul.menu li {
+  float: left;
+  list-style: none;
+  text-align: left;
+}
+
+a.lister {
+  color: #7986CB;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+
+ul.menu li #main-list {
+  animation: cycle 5s linear infinite;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+ul.menu li:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu ul {
+  position: relative;
+  display: none;
+  width: 250px;
+  right: 15px;
+}
+
+ul.menu ul li {
+  float: none;
+  position: relative;
+  left: 30px;
+  padding: 5px 0px 5px 15px;
+  margin-top: 3px;
+  font-size: 15px;
+  background-color: rgba(255,255,255,0.7);
+}
+
+.with-child::after {
+  content: '\25be';
+  color: #ffffff;
 }
