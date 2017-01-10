@@ -2,26 +2,17 @@ $(document).ready(function(){
   console.log('JavaScript loaded.')
   $('select').material_select();
 
-  var resizer = function() {
-    $(".cb-text").each(function(i) {
-      var ch = $(".cb-text").eq(i).height();
-      $(".case-block-image").eq(i).css({'height':ch+'px'});
-    });
-  }
-
-  resizer();
-
-  $(window).on('resize', function() {
-    resizer();
-  })
-
   $(window).on('scroll', function() {
     var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
 
-    var top = (0.7*Math.min((top/300),1)+0.2)
+    var top0 = (0.7*Math.min((top/300),1)+0.2);
+    var top1 = (1-Math.min((top/200),1));
+    var top2 = (0.8-Math.min((top/300),1)*0.5);
 
-    $("#header").css('background-color', 'rgba(57,43,88,'+top+')')
-    $(".itemer").css('background-color', 'rgba(255,255,255,'+Math.max(top,0.7)+')')
+    $("#header").css('background-color', 'rgba(47,33,78,'+top0+')')
+    $(".itemer").css('background-color', 'rgba(255,255,255,'+Math.max(top0,0.7)+')')
+    $(".bounce").css('opacity', top1)
+    $(".fullscreen-bg__video").css('opacity',top2)
   })
 
   $("#main-list").click(function() {

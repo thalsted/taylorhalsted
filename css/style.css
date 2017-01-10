@@ -1,11 +1,14 @@
+
+
 div#header {
   height: 100px;
   font-size: 50px;
   font-family: 'Roboto', sans-serif;
-  background-color: rgba(57,43,88,0.2);
+  background-color: rgba(47,33,78,0.2);
   top: 0;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 div#header h1 {
@@ -53,7 +56,7 @@ div.intro {
 }
 
 div.intro-text {
-  background-color: rgba(57,43,88,0.2);
+  background-color: rgba(121,134,203,0.7);
   color: white;
   text-align: center;
   font-size: 35px;
@@ -71,6 +74,11 @@ div.intro-text p span{
 
 div.quote {
   margin-top: 175px;
+}
+
+div.quote span {
+  float: right;
+  margin: 0 10px 20px 0;
 }
 
 div.quote-text {
@@ -97,10 +105,10 @@ div.case h1 {
   color: rgba(255,255,255,1);
   font-family: 'Raleway', sans-serif;
   padding: 10px 20px;
+  margin: 20px 0;
 }
 
 div.case-block {
-  margin-top: 20px;
   background-color: rgba(121,134,203,0.7);
   color: rgba(255,255,255,1);
   font-size: 20px;
@@ -111,8 +119,56 @@ div.case-block p {
   padding: 0 10px;
 }
 
+.linker {
+  animation: cycle1 4s linear infinite;
+}
+
+@keyframes cycle1 {
+  0% {
+    color: white;
+  } 50% {
+      color: rgba(255,170,140,1);
+  } 100% {
+    color: white;
+  }
+}
+
+.case-block-image {
+  background-size: cover;
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  margin: 20px 10px 0 10px;
+  opacity: 0.8;
+}
+
 #cb-image-1 {
-  height: 100%;
+  background-image: url('../img/hp-survey.png');
+}
+
+#cb-image-2 {
+  background-image: url('../img/hp-main.png');
+}
+
+#cb-image-3 {
+  background-image: url('../img/roi-main.png');
+}
+
+#cb-image-4 {
+  background-image: url('../img/roi-rec.png');
+}
+
+#cb-image-7 {
+  background-image: url('../img/hp-wif.png');
+  width: 600px;
+}
+
+#cb-image-8 {
+  background-image: url('../img/cocoa-stories.png');
+}
+
+#cb-image-9 {
+  background-image: url('../img/cocoa-timeline.png');
 }
 
 .fullscreen-bg {
@@ -201,4 +257,21 @@ ul.menu ul li {
 .with-child::after {
   content: '\25be';
   color: #ffffff;
+}
+
+.bounce {
+  position: relative;
+  left:50%;
+  bottom:0;
+  margin-top:-55px;
+  margin-left:-40px;
+  height:80px;
+  width:80px;
+  background-image: url('../img/arrow.png');
+  background-size: cover;
+  -webkit-animation:bounce 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes bounce {
+  50%      { bottom:20px; }
 }
