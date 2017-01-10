@@ -1,6 +1,12 @@
 $(document).ready(function(){
   console.log('JavaScript loaded.')
   $('select').material_select();
+  $('.linkedin').click(function() {
+    window.open('https://www.linkedin.com/in/taylor-halsted', '_blank')
+  })
+  $('.github').click(function() {
+    window.open('https://github.com/thalsted', '_blank')
+  })
 
   $(window).on('scroll', function() {
     var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);

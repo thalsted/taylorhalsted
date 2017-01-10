@@ -20,6 +20,7 @@ div#header {
   position: fixed;
   top: 25px;
   right: 85px;
+  cursor: pointer;
 }
 
 .github {
@@ -32,6 +33,7 @@ div#header {
   top: 25px;
   right: 20px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 div#footer {
