@@ -140,7 +140,7 @@ div.case {
 }
 
 div.case h1 {
-  font-size: 40px;
+  font-size: 35px;
   display: inline-block;
   background-color: rgba(121,134,203,0.7);
   color: rgba(255,255,255,1);
@@ -243,7 +243,6 @@ div.case-block p {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: #F7EDE2;
 }
 
 @media (max-width: 600px) {

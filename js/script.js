@@ -8,6 +8,27 @@ $(document).ready(function(){
     window.open('https://github.com/thalsted', '_blank')
   })
 
+  var detectmob = function() {
+   if( navigator.userAgent.match(/Android/i)
+   || navigator.userAgent.match(/webOS/i)
+   || navigator.userAgent.match(/iPhone/i)
+   || navigator.userAgent.match(/iPad/i)
+   || navigator.userAgent.match(/iPod/i)
+   || navigator.userAgent.match(/BlackBerry/i)
+   || navigator.userAgent.match(/Windows Phone/i)
+   ){
+      return true;
+    }
+   else {
+      return false;
+    }
+  }
+
+  if(detectmob()) {
+    $('video').remove()
+    $('.fullscreen-bg').css('background-color', '#F7EDE2')
+  }
+
   $(window).on('scroll', function() {
     var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
 
