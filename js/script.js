@@ -29,6 +29,9 @@ $(document).ready(function(){
     $('.fullscreen-bg').css('background-image', 'url("./img/mobile-bg.png")')
     $('.quote-text').css('font-size', '30px')
     $('.case-block').css('font-size', '40px')
+    $('.case h1').css('font-size', '50px')
+    $('.intro-text p').css('font-size', '50px')
+    $('.intro-text span').css('font-size', '40px')
   }
 
   $(window).on('scroll', function() {
