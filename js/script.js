@@ -30,7 +30,7 @@ $(document).ready(function(){
   if(detectmob()) {
     $('video').remove()
     $('.fullscreen-bg').css('background-image', 'url("./img/mobile-bg.png")')
-    $('.quote-text').css('font-size', '30px')
+    $('.quote-text').css('font-size', '28px')
     $('.case-block').css('font-size', '40px')
     $('.case h1').css('font-size', '50px')
     $('.intro-text p').css('font-size', '60px')
