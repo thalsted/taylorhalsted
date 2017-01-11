@@ -26,7 +26,9 @@ $(document).ready(function(){
 
   if(detectmob()) {
     $('video').remove()
-    $('.fullscreen-bg').css('background-color', '#F7EDE2')
+    $('.fullscreen-bg').css('background-image', 'url("./img/mobile-bg.png")')
+    $('.quote-text').css('font-size', '30px')
+    $('.case-block').css('font-size', '40px')
   }
 
   $(window).on('scroll', function() {
@@ -40,6 +42,7 @@ $(document).ready(function(){
     $(".itemer").css('background-color', 'rgba(255,255,255,'+Math.max(top0,0.7)+')')
     $(".bounce").css('opacity', top1)
     $(".fullscreen-bg__video").css('opacity',top2)
+    $(".fullscreen-bg").css('opacity',top2)
   })
 
   $("#main-list").click(function() {
