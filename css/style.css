@@ -145,7 +145,7 @@ div.intro {
 }
 
 div.intro-text {
-  background-color: rgba(75,136,182,0.8);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgb(250,250,250);
   text-align: center;
   font-size: 35px;
@@ -189,7 +189,7 @@ div.case {
 div.case h1 {
   font-size: 35px;
   display: inline-block;
-  background-color: rgba(75,136,182,0.8);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgba(250,250,250,1);
   font-family: 'Raleway', sans-serif;
   padding: 10px 20px;
@@ -197,7 +197,7 @@ div.case h1 {
 }
 
 div.case-block {
-  background-color: rgba(75,136,182,0.8);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgba(250,250,250,1);
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
