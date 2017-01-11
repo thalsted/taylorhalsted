@@ -102,10 +102,6 @@ div#header h1 {
   color: white;
 }
 
-iframe {
-  width: 80%;
-}
-
 div#picture {
   background-image: url('../img/th.png');
   height: 75px;

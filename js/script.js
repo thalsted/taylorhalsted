@@ -49,6 +49,7 @@ $(document).ready(function(){
     $(".bounce").css('opacity', top1)
     $(".fullscreen-bg__video").css('opacity',top2)
     $(".fullscreen-bg").css('opacity',top2)
+    $("ul.menu li:has(ul)").find("ul").slideUp("fast");
   })
 
   $("#main-list").click(function() {
@@ -71,12 +72,6 @@ $(document).ready(function(){
       $(this).find("ul").slideUp("fast");
     }
   )
-
-  $("ul.menu > li").hover(function(){
-      $(this).addClass('current');
-    },function(){
-      $(this).removeClass('current');
-  });
 
   $("ul.menu li a:has(ul)").addClass('with-child');
 
