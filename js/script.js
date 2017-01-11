@@ -30,7 +30,7 @@ $(document).ready(function(){
     $('.quote-text').css('font-size', '30px')
     $('.case-block').css('font-size', '40px')
     $('.case h1').css('font-size', '50px')
-    $('.intro-text p').css('font-size', '50px')
+    $('.intro-text p').css('font-size', '60px')
     $('.intro-text span').css('font-size', '40px')
   }
 
