@@ -42,13 +42,13 @@ $(document).ready(function(){
 
     var top0 = (0.7*Math.min((top/300),1)+0.2);
     var top1 = (1-Math.min((top/200),1));
-    var top2 = (0.8-Math.min((top/300),1)*0.5);
+    var top2 = (0.8-Math.min((top/300),1)*0.4);
 
-    $("#header").css('background-color', 'rgba(47,33,78,'+top0+')')
-    $(".itemer").css('background-color', 'rgba(255,255,255,'+Math.max(top0,0.7)+')')
+    $("#header").css('background-color', 'rgba(30,30,50,'+top0+')')
+    $(".itemer").css('background-color', 'rgba(250,250,250,'+Math.max(top0,0.7)+')')
     $(".bounce").css('opacity', top1)
     $(".fullscreen-bg__video").css('opacity',top2)
-    $(".fullscreen-bg").css('opacity',top2)
+    // $(".fullscreen-bg").css('opacity',top2)
     $("ul.menu li:has(ul)").find("ul").slideUp("fast");
   })
 

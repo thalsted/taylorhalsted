@@ -1,10 +1,8 @@
-
-
 div#header {
   height: 100px;
   font-size: 50px;
   font-family: 'Roboto', sans-serif;
-  background-color: rgba(47,33,78,0.2);
+  background-color: rgba(30,30,50,0.2);
   top: 0;
   position: fixed;
   width: 100%;
@@ -22,7 +20,7 @@ div#header {
   right: 150px;
   border-radius: 50%;
   cursor: pointer;
-  filter: grayscale(100%) brightness(2);
+  filter: grayscale(100%) brightness(2.4);
   z-index: 1;
 }
 
@@ -37,7 +35,7 @@ div#header {
   right: 85px;
   border-radius: 50%;
   cursor: pointer;
-  filter: brightness(125%);
+  filter: brightness(140%);
 }
 
 .github {
@@ -51,12 +49,11 @@ div#header {
   right: 20px;
   border-radius: 50%;
   cursor: pointer;
-  filter: brightness(90%);
   z-index: 1;
 }
 
 .white-box1 {
-  background-color: white;
+  background-color: rgb(250,250,250);
   height: 50px;
   width: 50px;
   display: inline-block;
@@ -64,10 +61,10 @@ div#header {
   top: 25px;
   right: 150px;
   border-radius: 50%;
-  border: 2px solid #6B6B6B;
+  border: 2px solid #808080;
 }
 .white-box2 {
-  background-color: white;
+  background-color: rgb(250,250,250);
   height: 48px;
   width: 48px;
   display: inline-block;
@@ -81,7 +78,7 @@ div#footer {
   height: 100px;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
-  background-color: rgba(30,30,30,1);
+  background-color: rgba(30,30,50,1);
   margin: 125px 0 0 0;
   width: 100%;
   z-index: 10;
@@ -95,11 +92,11 @@ div#footer div span {
 
 div#footer div {
   margin-top: 23px;
-  color: white;
+  color: rgb(250,250,250);
 }
 
 div#header h1 {
-  color: white;
+  color: rgb(250,250,250);
 }
 
 div#picture {
@@ -130,11 +127,11 @@ div#logo h1 {
 
 @keyframes cycle {
   0% {
-    color: white;
+    color: rgb(250,250,250);
   } 50% {
-      color: #7986CB;
+      color: rgba(230,100,110,1);
   } 100% {
-    color: white;
+    color: rgb(250,250,250);
   }
 }
 
@@ -143,8 +140,8 @@ div.intro {
 }
 
 div.intro-text {
-  background-color: rgba(121,134,203,0.7);
-  color: white;
+  background-color: rgba(75,136,182,0.8);
+  color: rgb(250,250,250);
   text-align: center;
   font-size: 35px;
   font-family: 'Raleway', sans-serif;
@@ -169,11 +166,11 @@ div.quote span {
 }
 
 div.quote-text {
-  background-color: rgba(255,255,255,0.6);
-  color: rgba(121,134,203,1);
+  background-color: rgba(230,100,110,0.7);
+  color: rgb(250,250,250);
   text-align: center;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   font-style: italic;
 }
 
@@ -188,16 +185,16 @@ div.case {
 div.case h1 {
   font-size: 35px;
   display: inline-block;
-  background-color: rgba(121,134,203,0.7);
-  color: rgba(255,255,255,1);
+  background-color: rgba(75,136,182,0.8);
+  color: rgba(250,250,250,1);
   font-family: 'Raleway', sans-serif;
   padding: 10px 20px;
   margin: 20px 0;
 }
 
 div.case-block {
-  background-color: rgba(121,134,203,0.7);
-  color: rgba(255,255,255,1);
+  background-color: rgba(75,136,182,0.8);
+  color: rgba(250,250,250,1);
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
@@ -212,11 +209,11 @@ div.case-block p {
 
 @keyframes cycle1 {
   0% {
-    color: white;
+    color: rgb(250,250,250);
   } 50% {
       color: rgba(255,170,140,1);
   } 100% {
-    color: white;
+    color: rgb(250,250,250);
   }
 }
 
@@ -295,7 +292,7 @@ div.case-block p {
 
 @media (max-width: 600px) {
   .fullscreen-bg {
-    background-color: #F7EDE2;
+    background-color: #8D99AE;
   }
 
   .fullscreen-bg__video {
@@ -317,7 +314,7 @@ ul.menu li {
 }
 
 a.lister {
-  color: #7986CB;
+  color: #E6646E;
   font-family: 'Roboto', sans-serif;
   display: block;
 }
@@ -329,7 +326,7 @@ ul.menu li #main-list {
 }
 
 ul.menu li:hover {
-  color: #fff;
+  color: #E6646E;
   text-decoration: none;
 }
 
@@ -347,7 +344,7 @@ ul.menu ul li {
   padding: 5px 0px 5px 15px;
   margin-top: 3px;
   font-size: 15px;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(250,250,250,0.7);
 }
 
 .with-child::after {
