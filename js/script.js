@@ -7,6 +7,9 @@ $(document).ready(function(){
   $('.github').click(function() {
     window.open('https://github.com/thalsted', '_blank')
   })
+  $('.resume').click(function() {
+    window.open('https://drive.google.com/open?id=0B07VzSWuKS26dlZqQXNrUmxjVmM', '_blank')
+  })
 
   var detectmob = function() {
    if( navigator.userAgent.match(/Android/i)

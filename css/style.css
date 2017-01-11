@@ -11,6 +11,21 @@ div#header {
   z-index: 10;
 }
 
+.resume {
+  background-size: cover;
+  background-image: url('../img/cv.png');
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  position: fixed;
+  top: 25px;
+  right: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: grayscale(100%) brightness(2);
+  z-index: 1;
+}
+
 .linkedin {
   background-size: cover;
   background-image: url('../img/linkedin.png');
@@ -22,6 +37,7 @@ div#header {
   right: 85px;
   border-radius: 50%;
   cursor: pointer;
+  filter: brightness(120%);
 }
 
 .github {
@@ -35,6 +51,30 @@ div#header {
   right: 20px;
   border-radius: 50%;
   cursor: pointer;
+  filter: brightness(90%);
+  z-index: 1;
+}
+
+.white-box1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  position: fixed;
+  top: 25px;
+  right: 150px;
+  border-radius: 50%;
+  border: 2px solid #6B6B6B;
+}
+.white-box2 {
+  background-color: white;
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  position: fixed;
+  top: 26px;
+  right: 21px;
+  border-radius: 50%;
 }
 
 div#footer {
@@ -55,6 +95,10 @@ div#footer div {
 
 div#header h1 {
   color: white;
+}
+
+iframe {
+  width: 80%;
 }
 
 div#picture {
