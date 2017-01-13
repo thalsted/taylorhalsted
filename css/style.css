@@ -134,7 +134,7 @@ div#logo h1 {
   0% {
     color: rgb(250,250,250);
   } 50% {
-      color: rgba(230,100,110,1);
+      color: rgba(129, 205, 204,1);
   } 100% {
     color: rgb(250,250,250);
   }
@@ -145,8 +145,8 @@ div.intro {
 }
 
 div.intro-text {
-  background-color: rgba(129, 205, 204,0.8);
-  color: rgb(250,250,250);
+  background-color: rgba(129, 205, 204,0.7);
+  color: rgb(41,53,74);
   text-align: center;
   font-size: 35px;
   font-family: 'Raleway', sans-serif;
@@ -171,8 +171,8 @@ div.quote span {
 }
 
 div.quote-text {
-  background-color: rgba(141,153,174,0.7);
-  color: rgb(250,250,250);
+  background-color: rgba(129, 205, 204,0.7);
+  color: rgb(41,53,74);
   text-align: center;
   font-size: 19px;
   font-style: italic;
@@ -189,16 +189,16 @@ div.case {
 div.case h1 {
   font-size: 35px;
   display: inline-block;
-  background-color: rgba(129, 205, 204,0.8);
-  color: rgba(250,250,250,1);
+  background-color: rgba(129, 205, 204,0.7);
+  color: rgba(41,53,74,1);
   font-family: 'Raleway', sans-serif;
   padding: 10px 20px;
   margin: 20px 0;
 }
 
 div.case-block {
-  background-color: rgba(129, 205, 204,0.8);
-  color: rgba(250,250,250,1);
+  background-color: rgba(129, 205, 204,0.7);
+  color: rgba(41,53,74,1);
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
@@ -315,7 +315,7 @@ ul.menu li {
 }
 
 a.lister {
-  color: #E6646E;
+  color: rgb(129, 205, 204);
   font-family: 'Roboto', sans-serif;
   display: block;
 }
@@ -327,7 +327,7 @@ ul.menu li #main-list {
 }
 
 ul.menu li:hover {
-  color: #E6646E;
+  color: rgb(129, 205, 204);
   text-decoration: none;
 }
 
