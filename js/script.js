@@ -42,7 +42,7 @@ $(document).ready(function(){
 
     var top0 = (0.8*Math.min((top/300),1)+0.2);
     var top1 = (1-Math.min((top/200),1));
-    var top2 = (0.8-Math.min((top/300),1)*0.4);
+    var top2 = (0.8-Math.min((top/500),1)*0.8);
 
     $("#header").css('background-color', 'rgba(141,153,174,'+top0+')')
     $(".itemer").css('background-color', 'rgba(250,250,250,'+Math.max(top0,0.7)+')')
