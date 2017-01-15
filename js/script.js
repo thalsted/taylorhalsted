@@ -8,7 +8,7 @@ $(document).ready(function(){
     window.open('https://github.com/thalsted', '_blank')
   })
   $('.resume').click(function() {
-    window.open('https://docs.google.com/document/d/15_p8VaXRXce3RiBAYn-0z3bn57xo6J3iQXz1AkPWxO4/edit?usp=sharing', '_blank')
+    window.open('https://drive.google.com/file/d/0B07VzSWuKS26Yno1OEp4SGtWY3M/view?usp=sharing', '_blank')
   })
 
   var detectmob = function() {
