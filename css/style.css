@@ -160,6 +160,49 @@ div.intro-text p span{
   font-family: 'Josefin Sans', sans-serif;
 }
 
+div.intro-main {
+  margin-top: 200px;
+}
+
+div.intro-text-main {
+  background-color: rgba(129, 205, 204,0.8);
+  transition: all 0.5s ease;
+  color: rgb(41,53,74);
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  width: 30%;
+  height: 250px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+div#main-pic-1:hover {
+  background-image: url('../img/hp-main2.png');
+  background-size: cover;
+  color: rgb(250,250,250);
+}
+
+div#main-pic-2:hover {
+  background-image: url('../img/hp-main1.png');
+  background-size: cover;
+  color: rgb(250,250,250);
+}
+
+div.intro-text-main p{
+  margin: 75px auto 0 auto;
+}
+
+div.intro-text-main span{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div.spacer {
+  display: inline-block;
+  width: 5%;
+}
+
 div.quote {
   margin-top: 175px;
 }

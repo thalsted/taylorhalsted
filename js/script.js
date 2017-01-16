@@ -11,6 +11,10 @@ $(document).ready(function(){
     window.open('https://drive.google.com/file/d/0B07VzSWuKS26Yno1OEp4SGtWY3M/view?usp=sharing', '_blank')
   })
 
+  $('#main-pic-1').click(function() {
+    window.open('./views/process.html')
+  })
+
   var detectmob = function() {
    if( navigator.userAgent.match(/Android/i)
    || navigator.userAgent.match(/webOS/i)
