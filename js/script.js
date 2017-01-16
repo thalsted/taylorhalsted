@@ -12,7 +12,7 @@ $(document).ready(function(){
   })
 
   $('#main-pic-1').click(function() {
-    window.open('./views/process.html')
+    window.location.href = "./views/process.html"
   })
 
   var detectmob = function() {
