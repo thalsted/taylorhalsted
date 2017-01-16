@@ -10,10 +10,17 @@ $(document).ready(function(){
   $('.resume').click(function() {
     window.open('https://drive.google.com/file/d/0B07VzSWuKS26Yno1OEp4SGtWY3M/view?usp=sharing', '_blank')
   })
-
   $('#main-pic-1').click(function() {
     window.location.href = "./views/process.html"
   })
+  $('#main-pic-2').click(function() {
+    window.location.href = "./views/work.html"
+  })
+  $('#logo h1').click(function() {
+    window.location.href = "../home.html"
+  })
+
+
 
   var detectmob = function() {
    if( navigator.userAgent.match(/Android/i)
