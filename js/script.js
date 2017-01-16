@@ -40,7 +40,7 @@ $(document).ready(function(){
   $(window).on('scroll', function() {
     var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
 
-    var top0 = (0.8*Math.min((top/300),1)+0.2);
+    var top0 = (0.3*Math.min((top/300),1)+0.7);
     var top1 = (1-Math.min((top/200),1));
     var top2 = (0.8-Math.min((top/500),1)*0.8);
 

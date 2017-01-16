@@ -5,8 +5,8 @@ body {
 div#header {
   height: 100px;
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
-  background-color: rgba(141,153,174,0.2);
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(141,153,174,0.7);
   top: 0;
   position: fixed;
   width: 100%;
@@ -81,7 +81,7 @@ div#header {
 div#footer {
   height: 100px;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: rgba(30,30,50,1);
   margin: 125px 0 0 0;
   width: 100%;
@@ -144,7 +144,7 @@ div.intro {
 }
 
 div.intro-text {
-  background-color: rgba(129, 205, 204,0.7);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgb(41,53,74);
   text-align: center;
   font-size: 35px;
@@ -157,7 +157,7 @@ div.intro-text p{
 
 div.intro-text p span{
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 div.quote {
@@ -170,7 +170,7 @@ div.quote span {
 }
 
 div.quote-text {
-  background-color: rgba(129, 205, 204,0.7);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgb(41,53,74);
   text-align: center;
   font-size: 19px;
@@ -188,7 +188,7 @@ div.case {
 div.case h1 {
   font-size: 35px;
   display: inline-block;
-  background-color: rgba(129, 205, 204,0.7);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgba(41,53,74,1);
   font-family: 'Raleway', sans-serif;
   padding: 10px 20px;
@@ -196,10 +196,10 @@ div.case h1 {
 }
 
 div.case-block {
-  background-color: rgba(129, 205, 204,0.7);
+  background-color: rgba(129, 205, 204,0.8);
   color: rgba(41,53,74,1);
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 div.case-block p {
@@ -207,14 +207,19 @@ div.case-block p {
 }
 
 .linker {
-  animation: cycle1 4s linear infinite;
+  animation: cycle1 3s linear infinite;
+  font-family: 'Raleway', sans-serif;
 }
 
 @keyframes cycle1 {
   0% {
     color: rgb(250,250,250);
+  } 33% {
+    color: rgb(250,250,250);
   } 50% {
-      color: rgba(255,170,140,1);
+    color: rgba(255,170,140,1);
+  } 66% {
+    color: rgb(250,250,250);
   } 100% {
     color: rgb(250,250,250);
   }
@@ -313,19 +318,19 @@ ul.menu li {
 }
 
 a.lister {
-  color: rgb(129, 205, 204);
-  font-family: 'Roboto', sans-serif;
+  color: rgb(41,53,74);
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
 }
 
 ul.menu li #main-list {
   animation: cycle 5s linear infinite;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
 }
 
 ul.menu li:hover {
-  color: rgb(129, 205, 204);
+  color: rgb(41,53,74);
   text-decoration: none;
 }
 
