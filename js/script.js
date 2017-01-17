@@ -1,5 +1,122 @@
 $(document).ready(function(){
   console.log('JavaScript loaded.')
+
+  if($('#tracker')) {
+    // specifies Headspace demo page
+
+    var randBetween = function(min,max) {
+        var ans = Math.floor(Math.random()*(max-min+1))+min;
+        return ans;
+      }
+
+    var users = {
+      Alex: {
+        id: 1,
+        picture: "url('../img/hs-demo-alex.png')",
+        age: 28,
+        level: randBetween(2,6),
+        comments: {
+          1: "xxxx",
+          2: "xxxx",
+          3: "xxxx",
+          4: "xxxx",
+          5: "xxxx",
+          6: "xxxx",
+          7: "xxxx",
+          8: "xxxx",
+          9: "xxxx",
+          10: "xxxx"
+        }
+      },
+      George: {
+        id: 2,
+        picture: "url('../img/hs-demo-george.png')",
+        age: 29,
+        level: 10,
+        comments: {
+          1: "xxxx",
+          2: "xxxx",
+          3: "xxxx",
+          4: "xxxx",
+          5: "xxxx",
+          6: "xxxx",
+          7: "xxxx",
+          8: "xxxx",
+          9: "xxxx",
+          10: "xxxx"
+        }
+      },
+      Emily: {
+        id: 3,
+        picture: "url('../img/hs-demo-emily.png')",
+        age: 27,
+        level: 10,
+        comments: {
+          1: "xxxx",
+          2: "xxxx",
+          3: "xxxx",
+          4: "xxxx",
+          5: "xxxx",
+          6: "xxxx",
+          7: "xxxx",
+          8: "xxxx",
+          9: "xxxx",
+          10: "xxxx"
+        }
+      },
+      PJ: {
+        id: 4,
+        picture: "url('../img/hs-demo-pj.png')",
+        age: 26,
+        level: 10,
+        comments: {
+          1: "xxxx",
+          2: "xxxx",
+          3: "xxxx",
+          4: "xxxx",
+          5: "xxxx",
+          6: "xxxx",
+          7: "xxxx",
+          8: "xxxx",
+          9: "xxxx",
+          10: "xxxx"
+        }
+      },
+      Julia: {
+        id: 5,
+        picture: "url('../img/hs-demo-julia.png')",
+        age: 23,
+        level: 10,
+        comments: {
+          1: "xxxx",
+          2: "xxxx",
+          3: "xxxx",
+          4: "xxxx",
+          5: "xxxx",
+          6: "xxxx",
+          7: "xxxx",
+          8: "xxxx",
+          9: "xxxx",
+          10: "xxxx"
+        }
+      }
+    }
+
+    for(var i = 1; i <= 10; i++) {
+      $circle = $("<div class='circler' data-id="+i+" style='margin: 172px 0 0 "+((i-1)*69+10)+"px'><h1>"+i+"</h1></div>")
+
+      if(i <= users["Alex"]["level"]) {
+        $circle.css('background-color', '#CBAB6C');
+      }
+
+      $('#tracker').append($circle)
+
+    }
+
+
+  }
+
+
   $('select').material_select();
   $('.linkedin').click(function() {
     window.open('https://www.linkedin.com/in/taylor-halsted', '_blank')
