@@ -174,7 +174,7 @@ $(document).ready(function(){
     window.open('https://github.com/thalsted', '_blank')
   })
   $('.resume').click(function() {
-    window.open('https://drive.google.com/file/d/0B07VzSWuKS26Yno1OEp4SGtWY3M/view?usp=sharing', '_blank')
+    window.open('https://drive.google.com/file/d/0B07VzSWuKS26aHFvQkR0b2h0OEE/view?usp=sharing', '_blank')
   })
   $('#main-pic-1').click(function() {
     window.location.href = "./views/process.html"
