@@ -25,18 +25,12 @@ $(document).ready(function(){
         id: 1,
         picture: "url('../img/hs-demo-alex.png')",
         age: 28,
-        level: randBetween(2,5),
+        level: 6,
         comments: {
-          1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          10: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se"
+          6: "It was tough finding time today, but I'm trying to work meditation into my new routine. Here goes...",
+          7: "Feeling a little groggy this morning, but I'm determined to keep this up!",
+          8: "Meditation is getting easier each day; I can feel the difference in my stress level at work.",
+          9: "Feeling good - bring on the calm!"
         }
       },
       George: {
@@ -44,17 +38,14 @@ $(document).ready(function(){
         picture: "url('../../img/hs-demo-george.png')",
         age: 29,
         level: 10,
+        job: "Sales Executive",
+        city: "Boston, MA",
         comments: {
-          1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          10: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se"
+          6: "Meditation is my New Year's resolution. Currently, it's giving me a run for my money!",
+          7: "They say 30 days makes a habit, right? 23 days to go...",
+          8: "Woke up feeling sharp this morning. Maybe this is starting to work? Will keep at it.",
+          9: "Feeling luckier than I can ever remember. I'm loving this time to reflect on makes me grateful.",
+          10: "My coworker mentioned I seem more present and happy lately. Starting to look forward to these sessions."
         }
       },
       Emily: {
@@ -62,17 +53,14 @@ $(document).ready(function(){
         picture: "url('../../img/hs-demo-emily.png')",
         age: 27,
         level: 10,
+        job: "Writer",
+        city: "New York, NY",
         comments: {
-          1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          10: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se"
+          6: "Slow start today, but I told myself I would stick with it.",
+          7: "I think there might be more to this meditation thing than I realized. I feel different, in a good way...",
+          8: "Got a compliment at work yesterday that I seem sunnier - sounds good to me!",
+          9: "Looking forward to meditating every day now. Feeling like I'm in the groove.",
+          10: "10 days down and no sign of stopping. I'm happy that my meditation time is fitting into my routine and making me a little happier every day."
         }
       },
       PJ: {
@@ -80,17 +68,14 @@ $(document).ready(function(){
         picture: "url('../../img/hs-demo-pj.png')",
         age: 26,
         level: 10,
+        job: "Political Advisor",
+        city: "Tampa, FL",
         comments: {
-          1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          10: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se"
+          6: "Still waiting for this to 'work'. Day 6 I'm coming for you!",
+          7: "Major breakthrough yesterday - it feels good to let my thoughts go.",
+          8: "I've been looking forward to my session this morning; after my day at work I could really use some peace and quiet.",
+          9: "Ahh... Another day taking some me time. I could seriously get used to this.",
+          10: "I can't believe I went 26 years without meditating. This is changing the way I see the world!"
         }
       },
       Julia: {
@@ -98,12 +83,9 @@ $(document).ready(function(){
         picture: "url('../../img/hs-demo-julia.png')",
         age: 23,
         level: 10,
+        job: "College Student",
+        city: "Hanover, NH",
         comments: {
-          1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          4: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          5: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
           6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
           7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
           8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
@@ -126,6 +108,8 @@ $(document).ready(function(){
     }
 
     var snippetMaker = function() {
+      $('.shader').fadeOut('slow');
+      $('.meditation').fadeOut('400');
       trackerMaker();
       var order = shuffler(4);
 
@@ -135,6 +119,8 @@ $(document).ready(function(){
         var curLevel = users["Alex"]["level"];
         var imgUrl = users[name]["picture"];
         var aComm = users["Alex"]["comments"][curLevel];
+        var job = users[name]["job"];
+        var city = users[name]["city"];
 
         if(i === 1) {
           var snip = users[name]["comments"][curLevel]
@@ -142,24 +128,45 @@ $(document).ready(function(){
           var snip = users[name]["comments"][randBetween(curLevel+1,10)]
         }
 
-        $('.snippet-header').eq(i-1).text(name+", "+age)
+        $('.snippet-header').eq(i-1).text(name+", "+job+", "+age)
         $('.snippet p').eq(i-1).text(snip)
         $('#snippet-pic'+(i)).css('background-image', imgUrl);
       }
 
       $('.snippet p').eq(2).empty();
 
-      (function myLoop (i,x) {
-        setTimeout(function () {
-          $('.snippet p').eq(2).append(aComm[i]);
-          if ((i+1) < x) {
-            myLoop((i+1),x)
-          } else {
-            users["Alex"]["level"]++;
-            snippetMaker();
-          }
-        }, 25)
-      })(0,aComm.length);
+      $('.snippet').fadeIn('slow');
+
+      setTimeout(function(){
+        (function myLoop (i,x) {
+          setTimeout(function() {
+            $('.snippet p').eq(2).append(aComm[i]);
+            if ((i+1) < x) {
+              myLoop((i+1),x)
+            } else {
+              if (users["Alex"]["level"] < 9) {
+                users["Alex"]["level"]++
+                meditator();
+              } else {
+                users["Alex"]["level"] = 6;
+                setTimeout(function(){
+                  $('.snippet').fadeOut('slow');
+                  setTimeout(function(){snippetMaker()},2000);
+                },2500);
+              }
+            }
+          }, 25)
+        })(0,aComm.length);
+      },1500);
+    }
+
+    var meditator = function() {
+      setTimeout(function(){
+        $('.snippet').fadeOut('slow');
+        $('.shader').fadeIn('400');
+        $('.meditation').fadeIn('slow');
+        setTimeout(function(){snippetMaker()},4000);
+      },2500);
     }
 
     snippetMaker();

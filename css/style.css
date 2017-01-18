@@ -86,10 +86,11 @@ div.snippet {
   border-radius: 5px;
   padding: 4px;
   font-size: 11px;
+  display: none;
 }
 
 div.snippet-header {
-  width: 175px;
+  width: 245px;
   height: 20px;
   line-height: 18px;
   background-color: rgba(200,200,200,1);
@@ -136,6 +137,39 @@ div#snippet3 {
 
 div#snippet-pic3 {
   background-image: url('../img/hs-demo-alex.png');
+}
+
+div.meditation {
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(250,250,250,0.9);
+  z-index: 12;
+  margin-top: 125px;
+  margin-left: 150px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #f47d30;
+  font-family: 'Muli', sans-serif;
+  display: none;
+}
+
+div.meditation p {
+  margin-top: 40px;
+  margin-bottom: 30px
+}
+
+div.shader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 800px;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 11;
+  display: none;
 }
 
 div#footer-hs {
