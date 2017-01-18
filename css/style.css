@@ -41,7 +41,7 @@ div#hs-demo-pic {
 }
 
 div#tracker {
-  height: 400px;
+  height: 500px;
   width: 700px;
   background-color: #FED587;
   margin: 150px auto 0 auto;
@@ -68,12 +68,74 @@ div.circler h1 {
 
 div.hs-spacer {
   position: absolute;
-  margin-top: 197px;
+  margin-top: 246px;
   width: 700px;
   height: 5px;
   background-color: #CBAB6C;
   display: inline-block;
   z-index: 1;
+}
+
+div.snippet {
+  position: absolute;
+  font-family: 'Muli', sans-serif;
+  display: inline-block;
+  width: 300px;
+  height: 75px;
+  background-color: rgba(250,250,250,1);
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 11px;
+}
+
+div.snippet-header {
+  width: 175px;
+  height: 20px;
+  line-height: 18px;
+  background-color: rgba(200,200,200,1);
+  border-radius: 5px;
+  color: white;
+  padding: 0 8px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+div.snippet p {
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  width: 270px;
+  height: 39px;
+  line-height: 13px;
+  overflow: hidden;
+}
+
+div.snippet-picture {
+  position: absolute;
+  background-size: cover;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  margin-left: 266px;
+  margin-top:  -26px;
+}
+
+div#snippet1 {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+div#snippet2 {
+  margin-top: 120px;
+  margin-left: 290px;
+}
+
+div#snippet3 {
+  margin-top: 350px;
+  margin-left: 150px;
+}
+
+div#snippet-pic3 {
+  background-image: url('../img/hs-demo-alex.png');
 }
 
 div#footer-hs {
