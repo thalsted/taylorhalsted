@@ -65,7 +65,7 @@ $(document).ready(function(){
           6: "Meditation is my New Year's resolution. Currently, it's giving me a run for my money!",
           7: "They say 30 days makes a habit, right? 23 days to go...",
           8: "Woke up feeling sharp this morning. Maybe this is starting to work? Will keep at it.",
-          9: "Feeling luckier than I can ever remember. I'm loving this time to reflect on makes me grateful.",
+          9: "Feeling luckier than I can ever remember. I'm loving this time to reflect on what I'm grateful for.",
           10: "My coworker mentioned I seem more present and happy lately. Starting to look forward to these sessions."
         }
       },
