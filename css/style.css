@@ -234,7 +234,7 @@ a#hs-link {
   right: 85px;
   border-radius: 50%;
   cursor: pointer;
-  filter: brightness(140%);
+  filter: grayscale(100%) brightness(144%);
 }
 
 .github {
