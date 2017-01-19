@@ -1,8 +1,28 @@
 $(document).ready(function(){
   console.log('JavaScript loaded.')
 
+  if($('#work-pane1')) {
+    // specifies work.html view
+
+    $('#work-pane1').click(function() {
+    window.open('https://hustlepuffin.herokuapp.com', '_blank')
+    })
+
+    $('#work-pane2').click(function() {
+      window.location.href = "../views/headspace/hs-demo.html"
+    })
+
+    $('#work-pane3').click(function() {
+    window.open('https://thalsted.github.io/projectOne-GA/', '_blank')
+    })
+
+    $('#work-pane4').click(function() {
+      window.location.href = "../home.html"
+    })
+  }
+
   if($('#tracker')) {
-    // specifies Headspace demo page
+    // specifies hs-demo.html view
 
     var randBetween = function(min,max) {
       var ans = Math.floor(Math.random()*(max-min+1))+min;
@@ -81,16 +101,16 @@ $(document).ready(function(){
       Julia: {
         id: 5,
         picture: "url('../../img/hs-demo-julia.png')",
-        age: 23,
+        age: 21,
         level: 10,
         job: "College Student",
         city: "Hanover, NH",
         comments: {
-          6: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          7: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          8: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          9: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se",
-          10: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, se"
+          6: "Got some funny looks in the library yesterday, but that won't stop me!",
+          7: "Who knew breathing could be so addictive? Looking forward to this time more and more every day.",
+          8: "Things that seemed stressful feel a little more manageable now.",
+          9: "Ready to do some breathing. This is becoming my favorite time of the day!",
+          10: "Feeling great! This is like going to the gym for your mind."
         }
       }
     }
