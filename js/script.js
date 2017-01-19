@@ -129,6 +129,7 @@ $(document).ready(function(){
         }
 
         $('.snippet-header').eq(i-1).text(name+", "+job+", "+age)
+        $('.snippet span').eq(i-1).text(city)
         $('.snippet p').eq(i-1).text(snip)
         $('#snippet-pic'+(i)).css('background-image', imgUrl);
       }
