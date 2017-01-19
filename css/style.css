@@ -400,7 +400,7 @@ div.spacer {
 }
 
 div.quote {
-  margin-top: 175px;
+  margin-top: 150px;
 }
 
 div.quote span {
@@ -409,11 +409,13 @@ div.quote span {
 }
 
 div.quote-text {
-  background-color: rgba(129, 205, 204,0.8);
-  color: rgb(41,53,74);
+  background-color: rgba(0,0,0,0.8);
+  color: rgb(250,250,250);
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  font-size: 19px;
-  font-style: italic;
+  font-size: 50px;
+  width: 90%;
+  padding: 10px 40px;
 }
 
 div.quote-text p{

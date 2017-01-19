@@ -1,7 +1,8 @@
 $(document).ready(function(){
   console.log('JavaScript loaded.')
+  var file = location.pathname.split('/').pop()
 
-  if($('#work-pane1')) {
+  if(file === "work.html") {
     // specifies work.html view
 
     $('#work-pane1').click(function() {
@@ -21,7 +22,7 @@ $(document).ready(function(){
     })
   }
 
-  if($('#tracker')) {
+  if(file === "hs-demo.html") {
     // specifies hs-demo.html view
 
     var randBetween = function(min,max) {
@@ -252,8 +253,11 @@ $(document).ready(function(){
     $("#header").css('background-color', 'rgba(141,153,174,'+top0+')')
     $(".itemer").css('background-color', 'rgba(250,250,250,'+Math.max(top0,0.7)+')')
     $(".bounce").css('opacity', top1)
-    $(".fullscreen-bg__video").css('opacity',top2)
     $("ul.menu li:has(ul)").find("ul").slideUp("fast");
+
+    if(file === "process.html") {
+      $(".fullscreen-bg__video").css('opacity',top2);
+    }
   })
 
   $("#main-list").click(function() {
