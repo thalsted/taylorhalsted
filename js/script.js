@@ -255,7 +255,7 @@ $(document).ready(function(){
     $(".bounce").css('opacity', top1)
     $("ul.menu li:has(ul)").find("ul").slideUp("fast");
 
-    if(file === "process.html") {
+    if(file === "process.html" || file === "hs-case.html") {
       $(".fullscreen-bg__video").css('opacity',top2);
     }
   })

@@ -452,6 +452,11 @@ div.case-block p {
   font-family: 'Raleway', sans-serif;
 }
 
+.linker1 {
+  animation: cycle1 3s linear infinite;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 @keyframes cycle1 {
   0% {
     color: rgb(250,250,250);
@@ -510,6 +515,22 @@ div.case-block p {
 
 #cb-image-9 {
   background-image: url('../img/cocoa-timeline.png');
+}
+
+#hs-image-1 {
+  background-image: url('../img/hs1.png');
+}
+
+#hs-image-2 {
+  background-image: url('../img/hs2.png');
+}
+
+#hs-image-3 {
+  background-image: url('../img/hs3.png');
+}
+
+#hs-image-4 {
+  background-image: url('../img/hs4.png');
 }
 
 .fullscreen-bg {
