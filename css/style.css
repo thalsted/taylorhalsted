@@ -533,6 +533,24 @@ div.case-block p {
   background-image: url('../img/hs4.png');
 }
 
+#hs-image-5 {
+  background-image: url('../img/hs5.png');
+  width: 600px;
+}
+
+#hs-image-6 {
+  background-image: url('../img/hs6.png');
+  width: 600px;
+}
+
+#hs-image-7 {
+  background-size: cover;
+  display: inline-block;
+  height: 250px;
+  margin: 20px 10px 0 10px;
+  opacity: 0.8;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;

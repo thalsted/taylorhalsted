@@ -211,10 +211,16 @@ $(document).ready(function(){
   $('#main-pic-2').click(function() {
     window.location.href = "./views/work.html"
   })
-  $('#logo h1').click(function() {
-    window.location.href = "../home.html"
-  })
 
+  if(file === "hs-case.html") {
+    $('#logo h1').click(function() {
+      window.location.href = "../../home.html"
+    })
+  } else {
+    $('#logo h1').click(function() {
+      window.location.href = "../home.html"
+    })
+  }
 
 
   var detectmob = function() {
