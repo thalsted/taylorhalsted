@@ -268,7 +268,6 @@ $(document).ready(function(){
     var top2 = (0.8-Math.min((top/500),1)*0.8);
 
     $("#header").css('background-color', 'rgba(141,153,174,'+top0+')')
-    $(".itemer").css('background-color', 'rgba(250,250,250,'+Math.max(top0,0.7)+')')
     $(".bounce").css('opacity', top1)
     $("ul.menu li:has(ul)").find("ul").slideUp("fast");
 
