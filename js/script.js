@@ -216,6 +216,13 @@ $(document).ready(function(){
     $('#logo h1').click(function() {
       window.location.href = "../../home.html"
     })
+
+    $('#link-out').click(function() {
+        window.location.href = "./hs-demo.html"
+      }).css({
+        cursor: 'pointer'
+      });
+
   } else {
     $('#logo h1').click(function() {
       window.location.href = "../home.html"
