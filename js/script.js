@@ -10,7 +10,7 @@ $(document).ready(function(){
     })
 
     $('#work-pane2').click(function() {
-      window.location.href = "../views/headspace/hs-demo.html"
+      window.location.href = "../views/headspace/hs-case.html"
     })
 
     $('#work-pane3').click(function() {
