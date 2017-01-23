@@ -218,7 +218,7 @@ $(document).ready(function(){
     })
 
     $('#link-out').click(function() {
-        window.location.href = "./hs-demo.html"
+        window.open('./hs-demo.html', '_blank')
       }).css({
         cursor: 'pointer'
       });

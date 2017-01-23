@@ -551,6 +551,14 @@ div.case-block p {
   opacity: 0.8;
 }
 
+#hs-image-8 {
+  background-image: url('../img/hs8.png');
+}
+
+#hs-image-9 {
+  background-image: url('../img/hs9.png');
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
