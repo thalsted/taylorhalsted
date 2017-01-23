@@ -6,7 +6,7 @@ $(document).ready(function(){
     // specifies work.html view
 
     $('#work-pane1').click(function() {
-    window.open('https://hustlepuffin.herokuapp.com', '_blank')
+      window.open('https://hustlepuffin.herokuapp.com', '_blank')
     })
 
     $('#work-pane2').click(function() {
@@ -14,11 +14,15 @@ $(document).ready(function(){
     })
 
     $('#work-pane3').click(function() {
-    window.open('https://thalsted.github.io/projectOne-GA/', '_blank')
+      window.open('https://thalsted.github.io/projectOne-GA/', '_blank')
     })
 
     $('#work-pane4').click(function() {
       window.location.href = "../home.html"
+    })
+
+    $('#work-pane5').click(function() {
+      window.open('https://sincerelykristi.github.io/d3-sweet-libs/', '_blank')
     })
   }
 
