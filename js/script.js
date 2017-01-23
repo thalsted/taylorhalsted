@@ -227,6 +227,12 @@ $(document).ready(function(){
         cursor: 'pointer'
       });
 
+    $('#hs-image-10').click(function() {
+        window.open('./hs-demo.html', '_blank')
+      }).css({
+        cursor: 'pointer'
+      });
+
   } else {
     $('#logo h1').click(function() {
       window.location.href = "../home.html"
