@@ -564,6 +564,11 @@ div.case-block p {
   width: 600px;
 }
 
+#hs-image-11 {
+  background-image: url('../img/hs10.png');
+  width: 600px;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
