@@ -6,7 +6,7 @@ $(document).ready(function(){
     // specifies work.html view
 
     $('#work-pane1').click(function() {
-      window.open('https://hustlepuffin.herokuapp.com', '_blank')
+      window.open('www.hustlepuffin.com', '_blank')
     })
 
     $('#work-pane2').click(function() {
