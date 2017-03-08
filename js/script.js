@@ -207,7 +207,7 @@ $(document).ready(function(){
     window.open('https://github.com/thalsted', '_blank')
   })
   $('.resume').click(function() {
-    window.open('https://docs.google.com/document/d/15_p8VaXRXce3RiBAYn-0z3bn57xo6J3iQXz1AkPWxO4/edit?usp=sharing', '_blank')
+    window.open('https://docs.google.com/document/d/1SXdaed9FjOXN7gxtAgx0l6fMU5fjPlNoTDEslmIv06M/edit?usp=sharing', '_blank')
   })
   $('#main-pic-1').click(function() {
     window.location.href = "./views/process.html"
